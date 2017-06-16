@@ -31,9 +31,9 @@ ui <- fluidPage(
      sliderInput(inputId = "blue",
                  label = "Blue",
                  value = 3, min = 1, max = 3),
-     selectInput('stretch', 'Stretch', c("hist","lin"))),
+     selectInput('stretch', ' Stretch ', c("hist","lin"))),
      mainPanel(
-          h1("Leaflet Map"),
+          h1(" Leaflet Map "),
      plotOutput("plot1"))
      )
  )
